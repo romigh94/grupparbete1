@@ -1,0 +1,57 @@
+#header,
+#sidebar,
+#main-content,
+#footer {
+    padding: 20px;
+}
+
+#container {
+    width: 960px;
+    margin: 20px auto;
+}
+
+#header {
+    background-color: rgba(21, 202, 190, 0.404);
+    height: 100px;
+    color: blue;
+}
+
+#content {
+    margin: 10px 0;
+}
+
+#sidebar {
+    float: left;
+    height: 1000px;
+    width: auto;
+    background-color: wheat;
+}
+
+#main-content {
+    float: right;
+    height: 1000px;
+    width: 796px;
+}
+
+#footer {
+    background-color: rgba(21, 202, 190, 0.404);
+    height: 100px;
+    color: blue;
+}
+
+#sidebar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+#sidebar-nav ul li a {
+    padding: 8px 16px;
+    display: block;
+}
+
+#sidebar-nav li a:hover {
+    background-color: rgb(109, 109, 109);
+    color: white;
+}
