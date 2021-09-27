@@ -1,0 +1,27 @@
+h1 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+#container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+input,
+textarea {
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 20px;  
+}
+
+
+input[type="submit"] {
+    background-color: lightblue;
+    margin: 10px 0;
+}
+
+#contactus {
+    width: 400px;
+}
