@@ -8,3 +8,26 @@ input {
  border-radius: 10px;   
 }
 
+h1 {
+    font-style: italic;
+    font-size: 50px;
+}
+
+#container {
+    width: 700px;
+    margin: 20px auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 20px;   
+}
+
+
+input[type="submit"] {
+    background-color: lightblue;
+    margin: 10px 0;
+}
