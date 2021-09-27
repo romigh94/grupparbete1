@@ -20,7 +20,7 @@
 }
 
 #content {
-    background-color: thistle;
+    
     margin: 10px 0;
 }
 
@@ -63,4 +63,5 @@
 .branch dt{
     text-decoration: underline;
     font-size: 20px;
+
 }
