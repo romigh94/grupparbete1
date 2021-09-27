@@ -20,6 +20,7 @@
 }
 
 #content {
+    background-color: thistle;
     margin: 10px 0;
 }
 
@@ -34,6 +35,7 @@
     float: right;
     height: 1000px;
     width: 796px;
+   
 }
 
 #footer {
@@ -57,4 +59,8 @@
 #sidebar-nav li a:hover {
     background-color: rgb(109, 109, 109);
     color: white;
+}
+.branch dt{
+    text-decoration: underline;
+    font-size: 20px;
 }
