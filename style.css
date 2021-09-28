@@ -66,15 +66,3 @@
     background-color: rgb(109, 109, 109);
     color: white;
 }
-/*..Style for branch tags ...*/
-.branch dt{
-    text-decoration: underline;
-    font-size: 20px;
-
-}
-#Map{
-    border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
