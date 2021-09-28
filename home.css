@@ -5,11 +5,11 @@
     padding: 20px;
 }
 
-#container-fluid {
+/* #container-fluid {
     background-image: url("/Users/BIgABE/Desktop/YH 2021/grupparbete1/grupparbete1/images.jpeg");
     width: 960px;
     margin: 20px auto;
-}
+} */
 
 #header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -47,10 +47,21 @@
     margin-left: 20px;
 
 }
-.shadybusiness{
-    grid-area: 1/1;
-    
+.shadyBusiness{  /*"bilderna för contentsidan "*/
+    position: relative;
+  text-align: center;
+  
 }
+.position-text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .shadybusiness{
+    grid-area: 1/1/1/1;
+    
+} */
 .footer {
     background-color: black;
     height: 100px;
