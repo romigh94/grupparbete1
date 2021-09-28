@@ -71,6 +71,8 @@
     background-color: black;
     height: 100px;
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 #sidebar-nav ul {
@@ -100,4 +102,8 @@
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+}
+a{
+    text-decoration: none;
+    
 }
