@@ -25,6 +25,7 @@
 
 #sidebar {
     float: left;
+    height: 1000px;
     width: auto;
     background-color: wheat;
     font-size: 20px;
@@ -33,13 +34,14 @@
 
 #main-content {
     float: right;
+    height: 1000px;
+    width: 796px;
 }
 
 #footer {
     background-color: rgba(21, 202, 190, 0.404);
     height: 100px;
     color: blue;
-    margin-top: 300px;
 }
 
 #sidebar-nav ul {
