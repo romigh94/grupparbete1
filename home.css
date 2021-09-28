@@ -12,16 +12,15 @@
 } */
 
 #header {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    background-color: rgba(90, 105, 104, 0.404);
+    font-family: 'alien-encounters', consolas, 'courier new', monospace;
+    font-size: 70px;
     text-align: center;
     height: 140px;
-    color: black;
+    color: white;
+    background: url(img/backgroundheader.png);
 }
 
 #content {
-    
     margin: 10px;
     text-align: center
 }
@@ -31,6 +30,7 @@
     height: auto;
     width: auto;
     /* background-color: wheat; */
+    color: black; 
     font-size: 20px;
     font-style: verdana;
 }
@@ -88,8 +88,8 @@
 }
 
 #sidebar-nav li a:hover {
-    /* background-color: rgb(109, 109, 109); */
-    text-decoration: underline;
+    background-color: rgb(109, 109, 109);
+    color: white;
 }
 /*..Style for branch tags ...*/
 .branch dt{
