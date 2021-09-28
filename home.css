@@ -86,8 +86,8 @@
 }
 
 #sidebar-nav li a:hover {
-    /* background-color: rgb(109, 109, 109); */
-    text-decoration: underline;
+    background-color: rgb(109, 109, 109);
+    color: white;
 }
 /*..Style for branch tags ...*/
 .branch dt{
