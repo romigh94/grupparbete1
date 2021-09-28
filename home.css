@@ -14,14 +14,13 @@
 #header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
-    background-color: rgba(90, 105, 104, 0.404);
     text-align: center;
     height: 140px;
     color: black;
+    background: url(img/bakgrund.jpeg)
 }
 
 #content {
-    
     margin: 10px 0;
 }
 
@@ -30,6 +29,8 @@
     height: auto;
     width: auto;
     /* background-color: wheat; */
+    background-color: lightblue;
+    color: black; 
     font-size: 20px;
     font-style: verdana;
 }
