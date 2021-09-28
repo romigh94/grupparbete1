@@ -9,4 +9,8 @@
     height: 500px; /* Should be removed. Only for demonstration */
   }
   
-  
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+  }
