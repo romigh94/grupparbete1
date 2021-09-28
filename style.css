@@ -1,3 +1,4 @@
+
 #header,
 #sidebar,
 #main-content,
@@ -5,7 +6,8 @@
     padding: 20px;
 }
 
-#container {
+#container-fluid {
+    background-image: url("/Users/BIgABE/Desktop/YH 2021/grupparbete1/grupparbete1/images.jpeg");
     width: 960px;
     margin: 20px auto;
 }
@@ -20,6 +22,7 @@
 }
 
 #content {
+    
     margin: 10px 0;
 }
 
@@ -35,11 +38,13 @@
     height: 1000px;
     width: 796px;
 }
-
+#theContent{
+    border: 1px solid red;
+}
 #footer {
     background-color: rgba(21, 202, 190, 0.404);
     height: 100px;
-    color: blue;
+    color: black;
 }
 
 #sidebar-nav ul {
