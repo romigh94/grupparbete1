@@ -22,7 +22,8 @@
 
 #content {
     
-    margin: 10px 0;
+    margin: 10px;
+    text-align: center
 }
 
 #sidebar {
@@ -62,6 +63,10 @@
     grid-area: 1/1/1/1;
     
 } */
+
+.hacking{
+    text-align: center;
+}
 .footer {
     background-color: black;
     height: 100px;
