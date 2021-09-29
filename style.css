@@ -1,0 +1,80 @@
+
+#header,
+#sidebar,
+#main-content,
+#footer {
+    padding: 20px;
+}
+
+#container-fluid {
+    background-image: url("/Users/BIgABE/Desktop/YH 2021/grupparbete1/grupparbete1/images.jpeg");
+    width: 960px;
+    margin: 20px auto;
+}
+
+#header {
+    font-family: 'alien-encounters', consolas, 'courier new', monospace;
+    font-size: 70px;
+    text-align: center;
+    height: 140px;
+    color: white;
+    background: url(img/backgroundheader.png);
+}
+
+#content {
+    margin: 10px 0;
+}
+
+#sidebar {
+    float: left;
+    height: 1000px;
+    width: auto;
+    /*background-color: wheat;*/
+    font-size: 20px;
+    font-style: verdana;
+}
+
+#main-content {
+    float: right;
+    height: 1000px;
+    width: 796px;
+}
+
+#theContent{
+    border: 1px solid red;
+}
+
+#footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+#sidebar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+#sidebar-nav ul li a {
+    padding: 8px 16px;
+    display: block;
+}
+
+#sidebar-nav li a:hover {
+    background-color: rgb(109, 109, 109);
+    color: white;
+}
+/*..Style for branch tags ...*/
+.branch dt{
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+#Map{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}

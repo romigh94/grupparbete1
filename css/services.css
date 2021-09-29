@@ -1,0 +1,20 @@
+.serviceheader {
+    margin: 30px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.servicecontent {
+    font-style: italic;
+    margin: 20px 50px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.heading {
+    margin-top: 20px;
+    line-height: 1.2;
+    background-color: white;
+    color: blue;
+}
