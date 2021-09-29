@@ -6,6 +6,7 @@ h1 {
 #container {
     width: 700px;
     margin: 20px auto;
+    margin-left: 1px;
 }
 
 input,
