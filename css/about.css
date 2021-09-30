@@ -28,17 +28,6 @@ header {
   background-image: url("../img/backgroundheader.png");
 }
 
-main {
-  grid-area: content;
-  margin: 10px 0;
-  float: right;
-  height: auto;
-  width: auto;
-
-  text-align: left;
-  font-style: italic;
-  font-size: 30px;
-}
 
 aside {
   grid-area: aside;
@@ -87,7 +76,6 @@ h1 {
         width: 600;
         height:600;
         margin-top:3px;
-        margin-down:3px;
         position: fixed;
         dislay: block;
         border: honeydew;
