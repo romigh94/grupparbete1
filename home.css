@@ -36,7 +36,9 @@ main {
 
     text-align: center;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: verdana;
+    border-left: 1px dotted black;
 }
 
 aside {
@@ -80,6 +82,10 @@ footer {
     display: flex;
     flex-direction: column;
     font-style: italic;
+}
+
+#sidebar-nav {
+    font-family: verdana;
 }
 
 #sidebar-nav ul {
