@@ -10,8 +10,6 @@
     "footer footer footer footer"
     ;
 }
-
-
 header,
 aside,
 main,
@@ -49,6 +47,7 @@ aside {
     font-size: 20px;
     font-family: verdana;
 }
+
 
 footer {
     grid-area: footer;
