@@ -1,106 +1,108 @@
-                                                                                                                                                    .container {
-                                                                                                                                                display: grid;
-                                                                                                                                                height: auto;
-                                                                                                                                                margin: 0 auto;
-                                                                                                                                                width: auto;
-                                                                                                                                                grid-template-columns: repeat(4, 1fr);
-                                                                                                                                                grid-template-areas: "header header header header" "aside content content content" "footer footer footer footer";
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            header,
-                                                                                                                                            aside,
-                                                                                                                                            main,
-                                                                                                                                            footer {
-                                                                                                                                                padding: 20px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            header {
-                                                                                                                                                grid-area: header;
-                                                                                                                                                text-align: center;
-                                                                                                                                                height: 140px;
-                                                                                                                                                font-family: 'Alien-encounters', Consolas, 'Courier New', monospace;
-                                                                                                                                                font-size: 70px;
-                                                                                                                                                color: white;
-                                                                                                                                                background-image: url("../img/backgroundheader.png");
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            main {
-                                                                                                                                                display: grid;
-                                                                                                                                                grid-area: content;
-                                                                                                                                                grid-template-columns: repeat(1, 1fr);
-                                                                                                                                                grid-template-areas: "heading" "heading-1" "heading-2" "heading-3" "heading-4" "heading-5"
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media screen and (min-width: 768px) and (max-width: 960px) {
-                                                                                                                                                main {
-                                                                                                                                                    display: grid;
-                                                                                                                                                    grid-area: content;
-                                                                                                                                                    grid-template-columns: repeat(2, 1fr);
-                                                                                                                                                    grid-template-areas: "heading heading-1 " "heading-2 heading-3 " "heading-4 heading-5"
-                                                                                                                                                }
-                                                                                                                                                @media screen and (min-width: 960px) and (max-width: 1200px) {
-                                                                                                                                                    main {
-                                                                                                                                                        display: grid;
-                                                                                                                                                        grid-area: content;
-                                                                                                                                                        grid-template-columns: repeat(3, 1fr);
-                                                                                                                                                        grid-template-areas: "heading heading-1 heading-2" "heading-3 heading-4 heading-5"
-                                                                                                                                                    }
-                                                                                                                                                    aside {
-                                                                                                                                                        grid-area: aside;
-                                                                                                                                                        float: left;
-                                                                                                                                                        height: auto;
-                                                                                                                                                        width: auto;
-                                                                                                                                                        font-size: 20px;
-                                                                                                                                                        font-family: verdana;
-                                                                                                                                                    }
-                                                                                                                                                    footer {
-                                                                                                                                                        grid-area: footer;
-                                                                                                                                                        background-color: black;
-                                                                                                                                                        height: 100px;
-                                                                                                                                                        color: white;
-                                                                                                                                                    }
-                                                                                                                                                    #aside nav ul {
-                                                                                                                                                        list-style-type: none;
-                                                                                                                                                        margin: 0;
-                                                                                                                                                        padding: 0;
-                                                                                                                                                        margin-top: 25px;
-                                                                                                                                                    }
-                                                                                                                                                    #aside nav ul li a {
-                                                                                                                                                        padding: 8px 16px;
-                                                                                                                                                        display: block;
-                                                                                                                                                    }
-                                                                                                                                                    #aside nav li a:hover {
-                                                                                                                                                        background-color: rgb(109, 109, 109);
-                                                                                                                                                        color: white;
-                                                                                                                                                    }
-                                                                                                                                                    h1 {
-                                                                                                                                                        font-family: verdana;
-                                                                                                                                                        font-size: 40px;
-                                                                                                                                                    }
-                                                                                                                                                    .serviceheader {
-                                                                                                                                                        margin: 30px 30px;
-                                                                                                                                                        font-size: 30px;
-                                                                                                                                                        font-weight: bold;
-                                                                                                                                                        padding: 20px 20px;
-                                                                                                                                                    }
-                                                                                                                                                    .servicecontent {
-                                                                                                                                                        font-style: italic;
-                                                                                                                                                        margin: 20px 50px;
-                                                                                                                                                        line-height: 1.6;
-                                                                                                                                                        font-size: 1rem;
-                                                                                                                                                    }
-                                                                                                                                                    .heading,
-                                                                                                                                                    .heading-1,
-                                                                                                                                                    .heading-2,
-                                                                                                                                                    .heading-3,
-                                                                                                                                                    .heading-4,
-                                                                                                                                                    .heading-5 {
-                                                                                                                                                        margin-top: 20px;
-                                                                                                                                                        line-height: 1.2;
-                                                                                                                                                        background-color: white;
-                                                                                                                                                        color: blue;
-                                                                                                                                                    }
-                                                                                                                                                    p {
-                                                                                                                                                        background-color: white;
-                                                                                                                                                        color: black;
-                                                                                                                                                    }
+  .container {
+      display: grid;
+      height: auto;
+      margin: 0 auto;
+      width: auto;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "header header header header" "aside content content content" "footer footer footer footer";
+  }
+  
+  header,
+  aside,
+  main,
+  footer {
+      padding: 20px;
+  }
+  
+  header {
+      grid-area: header;
+      text-align: center;
+      height: 140px;
+      font-family: 'Alien-encounters', Consolas, 'Courier New', monospace;
+      font-size: 70px;
+      color: white;
+      background-image: url("../img/backgroundheader.png");
+  }
+  
+  main {
+      display: grid;
+      grid-area: content;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas: "heading" "heading-1" "heading-2" "heading-3" "heading-4" "heading-5"
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+      main {
+          display: grid;
+          grid-area: content;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-areas: "heading heading-1 " "heading-2 heading-3 " "heading-4 heading-5"
+      }
+      @media screen and (min-width: 960px) and (max-width: 1200px) {
+          main {
+              display: grid;
+              grid-area: content;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-areas: "heading heading-1 heading-2" "heading-3 heading-4 heading-5"
+          }
+          aside {
+              grid-area: aside;
+              float: left;
+              height: auto;
+              width: auto;
+              font-size: 20px;
+              font-family: verdana;
+          }
+          footer {
+              grid-area: footer;
+              background-color: black;
+              height: 100px;
+              color: white;
+          }
+          #aside nav ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              margin-top: 25px;
+          }
+          #aside nav ul li a {
+              padding: 8px 16px;
+              display: block;
+          }
+          #aside nav li a:hover {
+              background-color: rgb(109, 109, 109);
+              color: white;
+          }
+          h1 {
+              font-family: verdana;
+              font-size: 40px;
+          }
+          .serviceheader {
+              margin: 30px 30px;
+              font-size: 30px;
+              font-weight: bold;
+              padding: 20px 20px;
+          }
+          .servicecontent {
+              font-style: italic;
+              margin: 20px 50px;
+              line-height: 1.6;
+              font-size: 1rem;
+          }
+          .heading,
+          .heading-1,
+          .heading-2,
+          .heading-3,
+          .heading-4,
+          .heading-5 {
+              margin-top: 20px;
+              line-height: 1.2;
+              background-color: white;
+              color: blue;
+          }
+          p {
+              background-color: white;
+              color: black;
+          }
+      }
+  }
