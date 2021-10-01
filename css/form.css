@@ -10,6 +10,7 @@
     "footer footer footer footer"
     ;
 }
+
 header,
 aside,
 main,
@@ -83,18 +84,19 @@ footer {
 }
 
 h1 {
-    font-family: verdana;
-    font-size: 40px;
+    font-style: italic;
+    font-size: 30px;
 }
 
 label,
 input,
 textarea {
-    width: 50%;
+    width: 60%;
     margin: 5px 0;
     padding: 10px;
     border-radius: 20px;
-    font-size: 15px;   
+    font-size: 15px;
+    font-family: verdana;   
 }
 
 
@@ -124,4 +126,49 @@ input[type="submit"] {
 
 a {
     text-decoration: none;
+}
+
+
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "header header header header"
+        "aside content content content"
+        "footer footer footer footer";
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .container {
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "header header"
+        "aside content"
+        "footer footer";
+    }
+    header {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "header header header header"
+        "aside aside aside aside"
+        "content content content content"
+        "footer footer footer footer";
+    }
+
+    footer {
+        font-size: 100%;
+    }
+
+    header {
+        font-size: 40px;
+        height: 70px;
+    }
 }
