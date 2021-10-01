@@ -34,11 +34,21 @@ main {
   grid-area: content;
   border: 1px solid black;
   grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "Branch1" "Branch2" "Branch3" "Branch4";
+    grid-template-areas: "Branch1" "Branch2" "Branch3" "Branch4" ;
     border-left: 1px dotted black;
-  margin-left: 470px;
+  margin-bottom: 250px; 
+  background-color: antiquewhite; 
+
   
-  
+}
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  main {
+      display: grid;
+      background-color: bisque;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "Branch1 Branch1" "Branch2 Branch3" "Branch4 Branch4"
+  }
 }
 aside {
   grid-area: aside;
