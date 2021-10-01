@@ -1,18 +1,24 @@
-#header,
-#sidebar,
-#main-content,
-#footer {
+.container {
+    display: grid;
+    height: auto;
+    margin: 0 auto;
+    width: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "aside content content content"
+    "footer footer footer footer";
+}
+
+header,
+aside,
+main,
+footer {
     padding: 20px;
 }
 
-
-/* #container-fluid {
-    background-image: url("/Users/BIgABE/Desktop/YH 2021/grupparbete1/grupparbete1/images.jpeg");
-    width: 960px;
-    margin: 20px auto;
-} */
-
-#header {
+header {
+    grid-area: header;
     font-family: 'alien-encounters', consolas, 'courier new', monospace;
     font-size: 70px;
     text-align: center;
@@ -21,34 +27,26 @@
     background: url(img/backgroundheader.png);
 }
 
-.content {
+main {
+    grid-area: content;
     margin: 10px 0;
+    float: right;
+    height: auto;
+    width: auto; 
+
     text-align: center;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-#sidebar {
+aside {
+    grid-area: aside;
     float: left;
     height: auto;
     width: auto;
-    /* background-color: wheat; */
     color: black;
     font-size: 20px;
-    font-style: verdana;
-}
-
-#main-content {
-    float: right;
-    height: 1000px;
-    width: 796px;
-    font-style: italic;
-}
-
-.gridImage {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    margin-left: 20px;
+    font-family: verdana;
 }
 
 .shadyBusiness {
@@ -74,7 +72,8 @@
     text-align: center;
 }
 
-.footer {
+footer {
+    grid-area: footer;
     background-color: black;
     height: 100px;
     color: black;
