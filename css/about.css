@@ -7,11 +7,11 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
   "header header header header"
-  "aside content content content"
-  "footer footer footer footer"
-  ;
+  "aside  content content content"
+  "footer footer footer footer";
+
 }
-header,
+header, 
 aside,
 main,
 footer {
@@ -27,6 +27,19 @@ header {
   color: white;
   background-image: url("../img/backgroundheader.png");
 }
+
+
+main {
+  display: grid;
+  grid-area: content;
+  border: 1px solid black;
+  grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "Branch1" "Branch2" "Branch3" "Branch4";
+    border-left: 1px dotted black;
+  margin-left: 470px;
+  
+  
+}
 aside {
   grid-area: aside;
   float: left;
@@ -34,18 +47,6 @@ aside {
   width: auto;
   font-size: 20px;
   font-family: verdana;
-}
-
-main {
-  display: grid;
-  grid-area: content;
-  border: 1px solid black;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-  background-color: lightblue
-  
 }
 
 #sidebar-nav ul {
@@ -65,13 +66,8 @@ main {
   color: white;
 
 }
-
-h1 {
-  font-family: verdana;
-  font-size: 40px;
-}
 footer {
-  grid-area: footer;
+  grid-area:footer;
   background-color: black;
   height: 100px;
   color: white;
