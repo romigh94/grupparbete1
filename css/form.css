@@ -53,10 +53,11 @@ aside {
 
 footer {
     grid-area: footer;
-    background-color: black;
+    background-image: url("../img/backgroundheader.png");
     height: 100px;
     color: white;
     font-family: 'Alien-encounters', Consolas, 'Courier New', monospace;
+    text-align: center;
 }
 
 #sidebar-nav {
