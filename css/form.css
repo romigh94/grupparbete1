@@ -10,8 +10,6 @@
     "footer footer footer footer"
     ;
 }
-
-
 header,
 aside,
 main,
@@ -29,16 +27,17 @@ header {
     background-image: url("../img/backgroundheader.png");
 }
 
+
 main {
     grid-area: content;
-    margin: 10px 0;
+    margin-left: 10px;
     float: right;
     height: auto;
     width: auto;
 
     text-align: left;
-    font-style: italic;
     font-size: 30px;
+    font-family: verdana;
 }
 
 aside {
@@ -48,15 +47,21 @@ aside {
     width: auto;
     font-size: 20px;
     font-family: verdana;
+    border-right: 1px dotted black;
 }
+
 
 footer {
     grid-area: footer;
     background-color: black;
     height: 100px;
     color: white;
+    font-family: 'Alien-encounters', Consolas, 'Courier New', monospace;
 }
 
+#sidebar-nav {
+    font-family: verdana;
+}
 
 #sidebar-nav ul {
     list-style-type: none;
@@ -81,13 +86,14 @@ h1 {
     font-size: 40px;
 }
 
+label,
 input,
 textarea {
     width: 50%;
     margin: 5px 0;
     padding: 10px;
     border-radius: 20px;
-    font-size: 20px;   
+    font-size: 15px;   
 }
 
 
@@ -99,4 +105,22 @@ input[type="submit"] {
 
 #contactus {
     width: 400px;
+}
+
+/*..Style for branch tags ...*/
+
+.branch dt {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#Map {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
 }
